@@ -90,12 +90,15 @@ $ echo "qwerty" | ./././hsh
 
 
 ## The of shell work
-**pwd:** This command prints the current working directory of the shell
-**cp:** This command copies files or directories1
-**echo:** This command prints a message or a variable value to the standard output
-**LS:**  List all content of directory
+- **pwd:** This command prints the current working directory of the shell
+
+- **cp:** This command copies files or directories1
+
+- **echo:** This command prints a message or a variable value to the standard output
+
+- **LS:**  List all content of directory
 ## Acknowledgment
-I, highly thank `ALX_Software` Engineering Company, the creator of **BETTY** Linter for C programming, for their invaluable contribution to the programming community. We also extend our gratitude to the pioneers of C programming and C language standard libraries, who laid the foundation for the world of programming.
+I, highly thank `ALX_Software` Engineering Company, the creator of **BETTY** Linter for C programming, for their invaluable contribution to the programming community. I also extend my gratitude to the pioneers of C programming and C language standard libraries, who laid the foundation for the world of programming.
 
 
 
