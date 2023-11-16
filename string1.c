@@ -81,7 +81,7 @@ int _putchar(char c)
     ssize_t bytes_written = write(1, buf, i);
     if (bytes_written == -1)
     {
-      // Handle write error
+      /*  Handle write error */
       perror("write");
       return -1;
     }
