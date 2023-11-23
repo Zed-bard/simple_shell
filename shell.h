@@ -112,7 +112,6 @@ typedef struct builtin
 	int (*func)(info_t_v2 *);
 } builtin_table;
 
-
 /* shell_pro_shloop.c */
 int zsh(info_t_v2 *, char **);
 int search_builtin(info_t_v2 *);
@@ -181,6 +180,7 @@ int chpwd_help(info_t_v2 *);
 int display_history(info_t_v2 *);
 int man_alias(info_t_v2 *);
 
+
 /*shell_pro_getline.c */
 ssize_t get_input(info_t_v2 *);
 int get_line(info_t_v2 *, char **, size_t *);
@@ -230,7 +230,13 @@ int char_chain(info_t_v2 *, char *, size_t *);
 void check_chain(info_t_v2 *, char *, size_t *, size_t, size_t);
 int replace_vars(info_t_v2 *);
 int replac_string(char **old, char *new);
+/* shell history.c */
+size_t _strlen(const char *str);
+char *_strcpy(char *dest, const char *src);
+void build_history_list(info_t_v2 *info, const char *buf, int linecount);
+int write_history(info_t_v2 *info);
+int read_history(info_t_v2 *info);
+int renumber_history(info_t_v2 *info);
 
-
-#endif
+#endif /* MAIN_HEADER */
 
